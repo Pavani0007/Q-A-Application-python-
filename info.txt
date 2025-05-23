@@ -1,0 +1,17 @@
+to create conda env
+conda create -p venv python==3.10 -y
+
+Activate conda env
+
+deactivate
+conda deactivate
+
+installing
+pip install -r requirements.txt
+
+run stremlit
+streamlit run qa_app.python
+
+remove conda
+conda remove -n venv -all
+
